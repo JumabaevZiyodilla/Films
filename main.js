@@ -8,7 +8,7 @@ for (const films of kinolar){
     filmsTempClone.querySelector(".title").textContent = films.title;
     filmsTempClone.querySelector(".year_span").textContent = films.year;
     filmsTempClone.querySelector(".actor_span").textContent = films.cast.join(", ")
-    filmsTempClone.querySelector(".genres_span").textContent = films.genres;
+    filmsTempClone.querySelector(".genres_span").textContent = films.genres.join(", ");
     // title.textContent = films.title;
     // textContent = i.title;
     // console.log(i.title);
