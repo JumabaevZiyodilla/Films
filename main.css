@@ -1,0 +1,51 @@
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+.item {
+    width: 240px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-image: linear-gradient(to right top, #171e20, #1a282f, 
+    #1f3341, #2a3c52, #3c4463);
+}
+.title {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+.year_text {
+    font-size: 20px;
+    color: #fff;
+}
+.year_span{
+    margin-left: 10px;
+    color: #76D7C4;
+}
+
+.actor_text {
+    font-size: 20px;
+    margin: 0px;
+    color: #fff;
+}
+.actor_span{
+    color: #2980B9;
+}
+.genres_text{
+    font-size: 20px;
+    color: #fff;
+}
+.genres_span {
+    color: #b4f600;
+}
